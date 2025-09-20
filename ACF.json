@@ -1,0 +1,979 @@
+[
+    {
+        "key": "group_607170fe7152d",
+        "title": "Основна інформація та налаштування",
+        "fields": [
+            {
+                "key": "field_65449baea9fef",
+                "label": "Брендинг",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_65449bbaa9ff0",
+                "label": "",
+                "name": "site_branding",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_65449be4a9ff1",
+                        "label": "Логотип",
+                        "name": "logo",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": "",
+                        "preview_size": "medium"
+                    }
+                ]
+            },
+            {
+                "key": "field_65449809bc258",
+                "label": "Контакти",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_64f89e7b92922",
+                "label": "",
+                "name": "site_contact",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_607171fb6d5f0",
+                        "label": "Телефон",
+                        "name": "phone",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Додати",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_607179a6c940c",
+                                "label": "Телефон",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0,
+                                "parent_repeater": "field_607171fb6d5f0"
+                            },
+                            {
+                                "key": "field_6071721c6d5f1",
+                                "label": "",
+                                "name": "number",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "Номер телефону",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_607171fb6d5f0"
+                            },
+                            {
+                                "key": "field_64f88ad55fe8a",
+                                "label": "",
+                                "name": "label",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "Примітка",
+                                "append": "",
+                                "parent_repeater": "field_607171fb6d5f0"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_64f88c971af94",
+                        "label": "E-mail",
+                        "name": "email",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Додати",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_64f88c971af95",
+                                "label": "E-mail",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0,
+                                "parent_repeater": "field_64f88c971af94"
+                            },
+                            {
+                                "key": "field_64f88c971af96",
+                                "label": "",
+                                "name": "address",
+                                "aria-label": "",
+                                "type": "email",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "example@gmail.com",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_64f88c971af94"
+                            },
+                            {
+                                "key": "field_64f88c971af97",
+                                "label": "",
+                                "name": "label",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "Примітка",
+                                "append": "",
+                                "parent_repeater": "field_64f88c971af94"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_64f88df79859c",
+                        "label": "Соцмережа",
+                        "name": "socialmedia",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Додати",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_64f88df79859d",
+                                "label": "Соцмережа",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0,
+                                "parent_repeater": "field_64f88df79859c"
+                            },
+                            {
+                                "key": "field_64f88df79859e",
+                                "label": "",
+                                "name": "link",
+                                "aria-label": "",
+                                "type": "url",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "Посилання",
+                                "parent_repeater": "field_64f88df79859c"
+                            },
+                            {
+                                "key": "field_64f88df79859f",
+                                "label": "",
+                                "name": "icon",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "<a href=\"https:\/\/icon-sets.iconify.design\/\" target=\"_blank\">Іконка<\/a>",
+                                "append": "",
+                                "parent_repeater": "field_64f88df79859c"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_64f8904e7bc9c",
+                        "label": "Месенджер",
+                        "name": "messenger",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Додати",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_64f8904e7bc9d",
+                                "label": "Месенджер",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0,
+                                "parent_repeater": "field_64f8904e7bc9c"
+                            },
+                            {
+                                "key": "field_64f8904e7bc9e",
+                                "label": "",
+                                "name": "link",
+                                "aria-label": "",
+                                "type": "url",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "Посилання",
+                                "parent_repeater": "field_64f8904e7bc9c"
+                            },
+                            {
+                                "key": "field_64f8904e7bc9f",
+                                "label": "",
+                                "name": "icon",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "<a href=\"https:\/\/icon-sets.iconify.design\/\" target=\"_blank\">Іконка<\/a>",
+                                "append": "",
+                                "parent_repeater": "field_64f8904e7bc9c"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_64f97724aff5c",
+                        "label": "Локація",
+                        "name": "location",
+                        "aria-label": "",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "pagination": 0,
+                        "min": 0,
+                        "max": 0,
+                        "collapsed": "",
+                        "button_label": "Додати",
+                        "rows_per_page": 20,
+                        "sub_fields": [
+                            {
+                                "key": "field_64f97724aff5d",
+                                "label": "Локація",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0,
+                                "parent_repeater": "field_64f97724aff5c"
+                            },
+                            {
+                                "key": "field_64f9786685f3b",
+                                "label": "Назва локації",
+                                "name": "label",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_64f97724aff5c"
+                            },
+                            {
+                                "key": "field_64f97758aff60",
+                                "label": "Адреса",
+                                "name": "address",
+                                "aria-label": "",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "visual",
+                                "toolbar": "basic",
+                                "media_upload": 0,
+                                "delay": 0,
+                                "parent_repeater": "field_64f97724aff5c"
+                            },
+                            {
+                                "key": "field_661cc8a50e485",
+                                "label": "Графік роботи",
+                                "name": "schedule",
+                                "aria-label": "",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "visual",
+                                "toolbar": "basic",
+                                "media_upload": 0,
+                                "delay": 0,
+                                "parent_repeater": "field_64f97724aff5c"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_654498b56bd87",
+                "label": "Контент",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_654496fd7f245",
+                "label": "",
+                "name": "section_",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_661cc82213ae5",
+                        "label": "Секція",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_654496fd7f85a",
+                        "label": "",
+                        "name": "headline",
+                        "aria-label": "",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "row",
+                        "sub_fields": [
+                            {
+                                "key": "field_654496fd80be8",
+                                "label": "Хедлайн",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_654496fd80c20",
+                                "label": "Надзаголовок",
+                                "name": "label",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_654496fd80c57",
+                                "label": "Заголовок",
+                                "name": "title",
+                                "aria-label": "",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "placeholder": "",
+                                "new_lines": "br"
+                            },
+                            {
+                                "key": "field_654496fd80c8e",
+                                "label": "Текстова область",
+                                "name": "textarea",
+                                "aria-label": "",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "visual",
+                                "toolbar": "full",
+                                "media_upload": 0,
+                                "delay": 0
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_661cc82b13ae6",
+                        "label": "",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 1
+                    },
+                    {
+                        "key": "field_654496fd7f92f",
+                        "label": "",
+                        "name": "display",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "Показувати секцію",
+                        "default_value": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "site"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_645753d88124a",
+        "title": "Шаблон сторінки: Головна",
+        "fields": [
+            {
+                "key": "field_645753f6aa3fe",
+                "label": "",
+                "name": "section_hero",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_661cc9322e72c",
+                        "label": "Головний екран",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6457540caa400",
+                        "label": "",
+                        "name": "headline",
+                        "aria-label": "",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "row",
+                        "sub_fields": [
+                            {
+                                "key": "field_6457541daa401",
+                                "label": "Хедлайн",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_64575424aa402",
+                                "label": "Надзаголовок",
+                                "name": "label",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_64575450aa403",
+                                "label": "Заголовок",
+                                "name": "title",
+                                "aria-label": "",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "placeholder": "",
+                                "new_lines": "br"
+                            },
+                            {
+                                "key": "field_64575462aa404",
+                                "label": "Текстова область",
+                                "name": "textarea",
+                                "aria-label": "",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "visual",
+                                "toolbar": "full",
+                                "media_upload": 0,
+                                "delay": 0
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_661cc93a2e72d",
+                        "label": "",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 1
+                    },
+                    {
+                        "key": "field_645760043d166",
+                        "label": "",
+                        "name": "display",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "Показувати секцію",
+                        "default_value": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-pages\/page-home.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "ui_options_page_64f8873a15d85",
+        "title": "WWW",
+        "active": true,
+        "menu_order": 0,
+        "page_title": "WWW",
+        "menu_slug": "site",
+        "parent_slug": "none",
+        "advanced_configuration": 1,
+        "icon_url": "dashicons-wordpress-alt",
+        "menu_title": "WWW",
+        "position": "",
+        "redirect": 1,
+        "description": "",
+        "update_button": "Оновити",
+        "updated_message": "Опції оновлено",
+        "capability": "edit_posts",
+        "data_storage": "options",
+        "post_id": "",
+        "autoload": 0
+    }
+]

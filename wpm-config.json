@@ -1,0 +1,15 @@
+{
+  "post_types": {
+    "team": {},
+    "review": {},
+    "product": {},
+    "service": {}
+  },
+  "taxonomies": {
+    "team_cat": {},
+    "review_cat": {},
+    "product_cat": {},
+    "service_cat": {}
+  },
+  "admin_pages": ["toplevel_page_site"]
+}
